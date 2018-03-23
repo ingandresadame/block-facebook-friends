@@ -1,11 +1,16 @@
 # block-facebook-friends
-Chrome Extension to block all your Facebook friends
+Chrome Extension that allows you block all your Facebook friends
 
 1.- Go to chrome://extensions/ in your Google Chrome Browser.
+
 2.- Turn on Developer mode.
+
 3.- Drag and drop the extension's folder in chrome://extensions/.
+
 4.- Open https://mbasic.facebook.com/YOUR_FACEBOOK_USERNAME/friends
+
 5.- The extension will do it's job.
+
 6.- That's it.
 
 Notes:
