@@ -14,6 +14,9 @@ Chrome Extension that allows you block all your Facebook friends
 6.- That's it.
 
 Notes:
+
 1.- The extension only works with mbasic url https://mbasic.facebook.com/YOUR_FACEBOOK_USERNAME/friends.
+
 2.- The extension will open at least 15 friends and block them all, so your cpu will go up, while doing this.
+
 3.- The extension can't close the tabs when blocking friends is done, so you have to close it manually.
