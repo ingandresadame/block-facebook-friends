@@ -1,0 +1,23 @@
+{
+	"name": "Block Facebook Friends",
+	"description": "Chrome Extension that allows you block all your Facebook friends",
+	"version": "1.0",
+	"browser_action": {
+		"name": "Block Facebook Friends",
+		"icons": ["facebook.png"],
+		"default_icon": "facebook.png",
+		"default_popup":  "popup.html"
+	},
+	"icons": {
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"content_scripts": [ {
+		"matches": ["*://*.facebook.com/*"],
+		"css": ["facebook.css"],
+		"js": [ "jquery-3.2.1.min.js", "popup.js" ],
+		"run_at": "document_start"
+	}],
+	"manifest_version": 2
+}
